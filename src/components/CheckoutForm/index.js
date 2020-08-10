@@ -87,6 +87,7 @@ class CheckoutForm extends Component {
     return (
        <div>
           Hello WORLD
+          <button>Pay Now </button>
         </div>
       // <div >
       //   <form>
