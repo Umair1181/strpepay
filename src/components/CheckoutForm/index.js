@@ -26,7 +26,7 @@ class CheckoutForm extends React.Component {
       return;
     }
 
-    axios.post( "http://localhost:5000/api/create-intent", {
+    axios.post( "https://stripserver.herokuapp.com/api/create-intent", {
         amount: price * 100
     } )
     .then( async res => {
@@ -38,10 +38,7 @@ class CheckoutForm extends React.Component {
         const paymentMethodRequest = await stripe.createPaymentMethod({
             type: "card",
             card: cardElement,
-            
-            // billing_details:{
-            //     name: "Test "
-            // }
+         
         })
         console.log( "check# 4" );
         const confirmCardPayment = await stripe.confirmCardPayment(res.data.client_secret, {
