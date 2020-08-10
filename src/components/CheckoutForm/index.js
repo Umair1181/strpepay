@@ -91,7 +91,7 @@ class CheckoutForm extends Component {
       //   </div>
       <div >
         <form>
-          <button type="submit">Pay Now </button>
+          <button type="submit"> Pay Now </button>
         </form>
       </div>
       //     <div className="centered">
@@ -127,17 +127,18 @@ class CheckoutForm extends Component {
      );
   }
 }
+export default CheckoutForm
 
-export default function InjectedCheckoutForm( props ) {
-  return (
-    <ElementsConsumer>
-      {({stripe, elements }) => (
+// export default function InjectedCheckoutForm( props ) {
+//   return (
+//     <ElementsConsumer>
+//       {({stripe, elements }) => (
        
-        <CheckoutForm stripe={stripe} elements={elements} price={props.price} />
-      )}
-    </ElementsConsumer>
-  );
-}
+//         <CheckoutForm stripe={stripe} elements={elements} price={props.price} />
+//       )}
+//     </ElementsConsumer>
+//   );
+// }
 
                         {/* <CardSection /> */}
 
