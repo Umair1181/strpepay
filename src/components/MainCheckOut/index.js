@@ -14,11 +14,14 @@ class MainCheckOut extends Component {
     }
     render() { 
         return ( 
-            <Elements stripe={stripePromise} >
-                <CheckoutForm price={this.state.price} />
-            </Elements>
+           <div>
+               <h2>TEST PAYMENT</h2>
+           </div>
          );
     }
 }
  
+ // <Elements stripe={stripePromise} >
+            //     <CheckoutForm price={this.state.price} />
+            // </Elements>
 export default MainCheckOut;

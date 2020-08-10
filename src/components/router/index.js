@@ -12,11 +12,11 @@ class MyRoutes extends Component {
     return ( 
       <React.Fragment>
         <Router history={history} >
-           <Switch>
+           {/* <Switch> */}
             <Route exact path="/connect/oauth"  render={(props) => <OAuth {...props} />} />
-            <Route exact path="/" render={(props) => <MainCheckOut  {...props}/>} />
+            <Route exact path="/" component={MainCheckOut} />
            
-            </Switch>
+            {/* </Switch> */}
           </Router> 
       </React.Fragment>
             // path="/:amount?/:connectedAccountId?" component={MainCheckOut} />
