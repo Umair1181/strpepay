@@ -89,7 +89,7 @@ class CheckoutForm extends React.Component {
   render() {
     return (
     //   <div className={ "outer" } >
-          <div class="centered">
+          <div className="centered">
                <div style={{ width: "100vh",height: "80vh" ,display: "flex" , justifyContent: "center", alignItems:"center", backgroundColor: "whitesmoke", borderRadius: "10px"}} >
                  
                     <form onSubmit={this.handleSubmit}>
