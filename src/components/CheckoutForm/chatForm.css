@@ -1,0 +1,20 @@
+.centered {
+    height: 100vh; /* Magic here */
+    display: flex;
+    min-width: 100vmin;
+    justify-content: center;
+    align-items: center;
+    /* background-color: "red" !important; */
+  }
+
+
+.pay-button{
+    background-color: #556cd6;
+    color: white;
+    align-self: center;
+    border-radius: 5px;
+    border-width: 0;
+    width: 80%;
+    height: 8vh;
+}
+
