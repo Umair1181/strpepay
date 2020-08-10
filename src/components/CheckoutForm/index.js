@@ -89,7 +89,7 @@ class CheckoutForm extends React.Component {
       //     Hello WORLD
       //   </div>
       <div style={{ display: "flex" , justifyContent: "center"}} >
-        <button className={ "pay-button" }  disabled={!this.props.stripe} >Pay Now </button>
+        <button className={ "pay-button" } >Pay Now </button>
       </div>
       //     <div className="centered">
       //        <div style={{ display: "flex" , justifyContent: "center"}} >
