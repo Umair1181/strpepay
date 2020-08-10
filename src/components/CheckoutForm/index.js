@@ -20,7 +20,7 @@ class CheckoutForm extends React.Component {
     console.log( "check# 2" + price);
 
     if (!stripe || !elements || !price) {
-        console.log( "check # 2'error" )
+        console.log( "check # 2 'error" )
       // Stripe.js has not yet loaded.
       // Make  sure to disable form submission until Stripe.js has loaded.
       return;
