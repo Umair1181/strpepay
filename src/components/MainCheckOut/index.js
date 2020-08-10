@@ -9,8 +9,8 @@ class MainCheckOut extends Component {
         connectedAccountId: ""
      }
     componentDidMount(){
-        this.setState({ price:this.props.match.params.amount, connectedAccountId:this.props.match.params.connectedAccountId })
-        console.log(this.props.match.params)
+        // this.setState({ price:this.props.match.params.amount, connectedAccountId:this.props.match.params.connectedAccountId })
+        // console.log(this.props.match.params)
     }
     render() { 
         return ( 
