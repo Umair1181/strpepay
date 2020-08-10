@@ -91,7 +91,7 @@ class CheckoutForm extends Component {
       //   </div>
       <div >
         <form>
-          <button type="submit"> Pay Now </button>
+          <button type="submit"> Pay Now   </button>
         </form>
       </div>
       //     <div className="centered">
