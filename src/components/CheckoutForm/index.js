@@ -85,15 +85,15 @@ class CheckoutForm extends Component {
 
   render() {
     return (
-       <div>
-          Hello WORLD
-          <button>Pay Now </button>
-        </div>
-      // <div >
-      //   <form>
+      //  <div>
+      //     Hello WORLD
       //     <button>Pay Now </button>
-      //   </form>
-      // </div>
+      //   </div>
+      <div >
+        <form>
+          <button type="submit">Pay Now </button>
+        </form>
+      </div>
       //     <div className="centered">
       //        <div style={{ display: "flex" , justifyContent: "center"}} >
       //           <button className={ "pay-button" }  disabled={!this.props.stripe} >Pay Now </button>
