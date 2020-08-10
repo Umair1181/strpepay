@@ -1,12 +1,12 @@
-import React from 'react';
+import React,{Component} from 'react';
 import {ElementsConsumer, CardElement} from '@stripe/react-stripe-js';
 
 import CardSection from '../CardSection';
 import axios from "axios";
 import './chatForm.css';
 const logo = require('../../images/LoginScreenLogo.png');
-class CheckoutForm extends React.Component {
-   state={
+class CheckoutForm extends Component {
+   state = {
     processing: false
    }
   // handleSubmit = async (event) => {
@@ -89,7 +89,9 @@ class CheckoutForm extends React.Component {
       //     Hello WORLD
       //   </div>
       <div >
-        <button >Pay Now </button>
+        <form>
+          <button>Pay Now </button>
+        </form>
       </div>
       //     <div className="centered">
       //        <div style={{ display: "flex" , justifyContent: "center"}} >
