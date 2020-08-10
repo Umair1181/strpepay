@@ -122,7 +122,10 @@ export default function InjectedCheckoutForm( props ) {
   return (
     <ElementsConsumer>
       {({stripe, elements }) => (
-        <CheckoutForm stripe={stripe} elements={elements} price={props.price} />
+        <div>
+          Hello WORLD
+        </div>
+        // <CheckoutForm stripe={stripe} elements={elements} price={props.price} />
       )}
     </ElementsConsumer>
   );
