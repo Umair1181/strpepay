@@ -9,6 +9,9 @@ class App extends Component {
   state={
     price: 15
   }
+  componentDidMount(){
+    console.log( stripePromise );
+  }
  
   render() { 
     return ( 
