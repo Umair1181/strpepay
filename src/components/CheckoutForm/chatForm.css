@@ -1,7 +1,6 @@
 .centered {
     height: 100vh; /* Magic here */
     display: flex;
-    min-width: 100vmin;
     justify-content: center;
     align-items: center;
     /* background-color: "red" !important; */
