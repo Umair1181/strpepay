@@ -12,7 +12,7 @@ const CARD_ELEMENT_OPTIONS = {
       color: "#32325d",      
       fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
       fontSmoothing: "antialiased",
-      fontSize: "30vh",
+      fontSize: "20px",
       "::placeholder": {
         color: "#aab7c4",
       },
@@ -30,7 +30,7 @@ function CardSection() {
   return (
     <div style={{width: "100vh", height: "20vh", alignItems: "center", justifyContent:"center"}} >
         <div style={{ display: "flex" , justifyContent: "center", height: "5vh"}} >
-          <span style={{fontSize: "3vh", color: "grey"}} >Fill Card Details To Proceed </span>  
+          <span style={{fontSize: "20px", color: "grey"}} >Fill Card Details To Proceed </span>  
         </div>
         <div style={{ display: "flex" ,alignContent: "center", width: "100vh", height: "5vh",justifyContent: "center"}} >
           <div style={{ display: "flex" ,alignContent: "center", width: "90vh", justifyContent: "center"}} >
