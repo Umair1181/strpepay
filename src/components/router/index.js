@@ -14,7 +14,8 @@ class MyRoutes extends Component {
         <Router history={history} >
            <Switch>
             <Route exact path="/connect/oauth"  render={(props) => <OAuth {...props} />} />
-            <Route exact path="/:amount?/:connectedAccountId?" render={(props) => <MainCheckOut  {...props}/>} />
+            <Route exact path="/:amount/:connectedAccountId" render={(props) => <MainCheckOut  {...props}/>} />
+           
             </Switch>
           </Router> 
       </React.Fragment>
