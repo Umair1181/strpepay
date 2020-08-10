@@ -85,36 +85,42 @@ class CheckoutForm extends React.Component {
 
   render() {
     return (
+       <div>
+          Hello WORLD
+        </div>
     //   <div className={ "outer" } >
-          <div className="centered">
-               <div style={{ width: "100vh",height: "80vh" ,display: "flex" , justifyContent: "center", alignItems:"center", backgroundColor: "whitesmoke", borderRadius: "10px"}} >
-                 
-                    <form onSubmit={this.handleSubmit}>
-                        <div style={{ display: "flex" , justifyContent: "center"}} >
-                            {/* <span> Ace In Hole Payment </span> */}
-                            <img style={{height: "150px", width: "150px"}}  src={logo} alt="Smiley face"/>
-                          
-                        </div>
-                        {/* <CardSection /> */}
-                        {
-                            this.state.processing ?
-                            <div style={{ display: "flex" , justifyContent: "center"}} >
-
-                            <button disabled={true} className={ "pay-button" } > Processing... </button>
-                            </div>
+    //       <div className="centered">
+    //          <div style={{ display: "flex" , justifyContent: "center"}} >
+    //                             <button className={ "pay-button" }  disabled={!this.props.stripe} >Pay Now </button>
+    //                         </div>
                             
-                            :
-                            <div style={{ display: "flex" , justifyContent: "center"}} >
-                                <button className={ "pay-button" }  disabled={!this.props.stripe} >Pay Now </button>
-                            </div>
-                            // <PaymentRequestButtonElement> pay </PaymentRequestButtonElement>
-                            // <button type="submit" disabled={!this.props.stripe}></button>
-                        }
-                    </form>
-            </div>
+    //            <div style={{ width: "100vh",height: "80vh" ,display: "flex" , justifyContent: "center", alignItems:"center", backgroundColor: "whitesmoke", borderRadius: "10px"}} >
+                 
+    //                 <form onSubmit={this.handleSubmit}>
+    //                     <div style={{ display: "flex" , justifyContent: "center"}} >
+                            
+    //                         <img style={{height: "150px", width: "150px"}}  src={logo} alt="Smiley face"/>
+                          
+    //                     </div>
+    //                     {
+    //                         this.state.processing ?
+    //                         <div style={{ display: "flex" , justifyContent: "center"}} >
+
+    //                         <button disabled={true} className={ "pay-button" } > Processing... </button>
+    //                         </div>
+                            
+    //                         :
+    //                         <div style={{ display: "flex" , justifyContent: "center"}} >
+    //                             <button className={ "pay-button" }  disabled={!this.props.stripe} >Pay Now </button>
+    //                         </div>
+                            
+    //                     }
+    //                 </form>
+    //         </div>
             
-       </div>
-    );
+    //    </div>
+    //
+     );
   }
 }
 
@@ -122,11 +128,12 @@ export default function InjectedCheckoutForm( props ) {
   return (
     <ElementsConsumer>
       {({stripe, elements }) => (
-        <div>
-          Hello WORLD
-        </div>
-        // <CheckoutForm stripe={stripe} elements={elements} price={props.price} />
+       
+        <CheckoutForm stripe={stripe} elements={elements} price={props.price} />
       )}
     </ElementsConsumer>
   );
 }
+
+                        {/* <CardSection /> */}
+
