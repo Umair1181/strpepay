@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ee62c778cedfce5778fb0adff931191",
+    "revision": "63e619e69729d121d92f3e1eb1d90845",
     "url": "/strpepay/index.html"
   },
   {
-    "revision": "7cd91391594867cf2751",
+    "revision": "a8383c390b924d502b24",
     "url": "/strpepay/static/css/main.434de980.chunk.css"
   },
   {
-    "revision": "76acf0a636387dc5e248",
-    "url": "/strpepay/static/js/2.d309d7d7.chunk.js"
+    "revision": "2406946ff8e5fccdb169",
+    "url": "/strpepay/static/js/2.aefb474d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/strpepay/static/js/2.d309d7d7.chunk.js.LICENSE.txt"
+    "url": "/strpepay/static/js/2.aefb474d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7cd91391594867cf2751",
-    "url": "/strpepay/static/js/main.4cbf8ba1.chunk.js"
+    "revision": "a8383c390b924d502b24",
+    "url": "/strpepay/static/js/main.308dc905.chunk.js"
   },
   {
     "revision": "91f432e74b1317d4b8bc",

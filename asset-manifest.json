@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/strpepay/static/css/main.434de980.chunk.css",
-    "main.js": "/strpepay/static/js/main.4cbf8ba1.chunk.js",
-    "main.js.map": "/strpepay/static/js/main.4cbf8ba1.chunk.js.map",
+    "main.js": "/strpepay/static/js/main.308dc905.chunk.js",
+    "main.js.map": "/strpepay/static/js/main.308dc905.chunk.js.map",
     "runtime-main.js": "/strpepay/static/js/runtime-main.aec86d6f.js",
     "runtime-main.js.map": "/strpepay/static/js/runtime-main.aec86d6f.js.map",
-    "static/js/2.d309d7d7.chunk.js": "/strpepay/static/js/2.d309d7d7.chunk.js",
-    "static/js/2.d309d7d7.chunk.js.map": "/strpepay/static/js/2.d309d7d7.chunk.js.map",
+    "static/js/2.aefb474d.chunk.js": "/strpepay/static/js/2.aefb474d.chunk.js",
+    "static/js/2.aefb474d.chunk.js.map": "/strpepay/static/js/2.aefb474d.chunk.js.map",
     "index.html": "/strpepay/index.html",
-    "precache-manifest.2e5c4a943a1431d15814a9d0d5887500.js": "/strpepay/precache-manifest.2e5c4a943a1431d15814a9d0d5887500.js",
+    "precache-manifest.168ee499c520c77ae92460e4f1188db1.js": "/strpepay/precache-manifest.168ee499c520c77ae92460e4f1188db1.js",
     "service-worker.js": "/strpepay/service-worker.js",
     "static/css/main.434de980.chunk.css.map": "/strpepay/static/css/main.434de980.chunk.css.map",
-    "static/js/2.d309d7d7.chunk.js.LICENSE.txt": "/strpepay/static/js/2.d309d7d7.chunk.js.LICENSE.txt",
+    "static/js/2.aefb474d.chunk.js.LICENSE.txt": "/strpepay/static/js/2.aefb474d.chunk.js.LICENSE.txt",
     "static/media/LoginScreenLogo.png": "/strpepay/static/media/LoginScreenLogo.dc7fb855.png"
   },
   "entrypoints": [
     "static/js/runtime-main.aec86d6f.js",
-    "static/js/2.d309d7d7.chunk.js",
+    "static/js/2.aefb474d.chunk.js",
     "static/css/main.434de980.chunk.css",
-    "static/js/main.4cbf8ba1.chunk.js"
+    "static/js/main.308dc905.chunk.js"
   ]
 }
