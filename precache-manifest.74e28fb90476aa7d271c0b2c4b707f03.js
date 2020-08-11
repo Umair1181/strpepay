@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "63e619e69729d121d92f3e1eb1d90845",
+    "revision": "4a08fe1ea2713fc567b043650d18a198",
     "url": "/strpepay/index.html"
   },
   {
-    "revision": "a8383c390b924d502b24",
+    "revision": "536f165ddffb22157adb",
     "url": "/strpepay/static/css/main.434de980.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/strpepay/static/js/2.aefb474d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a8383c390b924d502b24",
-    "url": "/strpepay/static/js/main.308dc905.chunk.js"
+    "revision": "536f165ddffb22157adb",
+    "url": "/strpepay/static/js/main.8c53d1f7.chunk.js"
   },
   {
     "revision": "91f432e74b1317d4b8bc",

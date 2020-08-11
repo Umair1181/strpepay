@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/strpepay/static/css/main.434de980.chunk.css",
-    "main.js": "/strpepay/static/js/main.308dc905.chunk.js",
-    "main.js.map": "/strpepay/static/js/main.308dc905.chunk.js.map",
+    "main.js": "/strpepay/static/js/main.8c53d1f7.chunk.js",
+    "main.js.map": "/strpepay/static/js/main.8c53d1f7.chunk.js.map",
     "runtime-main.js": "/strpepay/static/js/runtime-main.aec86d6f.js",
     "runtime-main.js.map": "/strpepay/static/js/runtime-main.aec86d6f.js.map",
     "static/js/2.aefb474d.chunk.js": "/strpepay/static/js/2.aefb474d.chunk.js",
     "static/js/2.aefb474d.chunk.js.map": "/strpepay/static/js/2.aefb474d.chunk.js.map",
     "index.html": "/strpepay/index.html",
-    "precache-manifest.168ee499c520c77ae92460e4f1188db1.js": "/strpepay/precache-manifest.168ee499c520c77ae92460e4f1188db1.js",
+    "precache-manifest.74e28fb90476aa7d271c0b2c4b707f03.js": "/strpepay/precache-manifest.74e28fb90476aa7d271c0b2c4b707f03.js",
     "service-worker.js": "/strpepay/service-worker.js",
     "static/css/main.434de980.chunk.css.map": "/strpepay/static/css/main.434de980.chunk.css.map",
     "static/js/2.aefb474d.chunk.js.LICENSE.txt": "/strpepay/static/js/2.aefb474d.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.aec86d6f.js",
     "static/js/2.aefb474d.chunk.js",
     "static/css/main.434de980.chunk.css",
-    "static/js/main.308dc905.chunk.js"
+    "static/js/main.8c53d1f7.chunk.js"
   ]
 }
