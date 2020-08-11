@@ -2,24 +2,21 @@ import React, { Component } from 'react';
 import MyRoutes from "./components/router";
 import { Elements } from '@stripe/react-stripe-js';
 import CheckoutForm from './components/CheckoutForm'
-import {loadStripe} from '@stripe/stripe-js';
 const stripePromise = loadStripe("pk_test_2Qxo3JNFdwPvQ0UbamibC4g200HHZIUZXs");
 
 class App extends Component {
   state={
     price: 15
   }
-  componentDidMount(){
-    console.log( stripePromise );
-  }
  
   render() { 
     return ( 
       <React.Fragment>
-        {/* <MyRoutes /> */}
-            <Elements stripe={stripePromise} >
+        <MyRoutes />
+
+            {/* <Elements stripe={stripePromise} >
                  <CheckoutForm price={this.state.price} />
-             </Elements>
+             </Elements> */}
       </React.Fragment>
      );
   }
