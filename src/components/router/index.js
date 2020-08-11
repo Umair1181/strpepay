@@ -5,7 +5,7 @@ import OAuth from "../oauth";
 import history from "../history";
 class MyRoutes extends Component {
   state = { 
-      price: 15
+      price: 15 
    }
  
   render() { 
